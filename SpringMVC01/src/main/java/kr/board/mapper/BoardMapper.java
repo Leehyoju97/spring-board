@@ -9,4 +9,5 @@ import kr.board.entity.Board;
 @Mapper
 public interface BoardMapper {
 	public List<Board> getLists();
+	public void boardInsert(Board vo);
 }
